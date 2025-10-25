@@ -201,3 +201,66 @@
 [2025-10-25T16:35:56.690+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:35:56.690+0200] {dag.py:3036} INFO - Sync 1 DAGs
 [2025-10-25T16:35:56.697+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:35:56.697+0200] {dag.py:3823} INFO - Setting next_dagrun for order_monitoring_dag to 2025-10-25 14:00:00+00:00, run_after=2025-10-25 15:00:00+00:00
 [2025-10-25T16:35:56.704+0200] {processor.py:183} INFO - Processing /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py took 0.079 seconds
+[2025-10-25T16:43:38.750+0200] {processor.py:161} INFO - Started process (PID=73786) to work on /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:43:38.751+0200] {processor.py:830} INFO - Processing file /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py for tasks to queue
+[2025-10-25T16:43:38.751+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:43:38.751+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:43:38.755+0200] {processor.py:840} INFO - DAG(s) 'order_monitoring_dag' retrieved from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:43:38.814+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:43:38.814+0200] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-10-25T16:43:38.822+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:43:38.822+0200] {dag.py:3823} INFO - Setting next_dagrun for order_monitoring_dag to 2025-10-25 14:00:00+00:00, run_after=2025-10-25 15:00:00+00:00
+[2025-10-25T16:43:38.829+0200] {processor.py:183} INFO - Processing /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py took 0.079 seconds
+[2025-10-25T16:44:35.127+0200] {processor.py:161} INFO - Started process (PID=73934) to work on /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:44:35.128+0200] {processor.py:830} INFO - Processing file /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py for tasks to queue
+[2025-10-25T16:44:35.128+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:44:35.128+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:44:35.134+0200] {processor.py:840} INFO - DAG(s) 'order_monitoring_dag' retrieved from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:44:35.194+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:44:35.194+0200] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-10-25T16:44:35.202+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:44:35.202+0200] {dag.py:3823} INFO - Setting next_dagrun for order_monitoring_dag to 2025-10-25 14:00:00+00:00, run_after=2025-10-25 15:00:00+00:00
+[2025-10-25T16:44:35.208+0200] {processor.py:183} INFO - Processing /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py took 0.082 seconds
+[2025-10-25T16:45:32.606+0200] {processor.py:161} INFO - Started process (PID=73980) to work on /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:45:32.607+0200] {processor.py:830} INFO - Processing file /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py for tasks to queue
+[2025-10-25T16:45:32.607+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:45:32.607+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:45:32.612+0200] {processor.py:840} INFO - DAG(s) 'order_monitoring_dag' retrieved from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:45:32.675+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:45:32.675+0200] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-10-25T16:45:32.681+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:45:32.681+0200] {dag.py:3823} INFO - Setting next_dagrun for order_monitoring_dag to 2025-10-25 14:00:00+00:00, run_after=2025-10-25 15:00:00+00:00
+[2025-10-25T16:45:32.688+0200] {processor.py:183} INFO - Processing /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py took 0.082 seconds
+[2025-10-25T16:46:32.400+0200] {processor.py:161} INFO - Started process (PID=74032) to work on /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:46:32.401+0200] {processor.py:830} INFO - Processing file /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py for tasks to queue
+[2025-10-25T16:46:32.401+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:46:32.401+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:46:32.405+0200] {processor.py:840} INFO - DAG(s) 'order_monitoring_dag' retrieved from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:46:32.468+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:46:32.468+0200] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-10-25T16:46:32.474+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:46:32.474+0200] {dag.py:3823} INFO - Setting next_dagrun for order_monitoring_dag to 2025-10-25 14:00:00+00:00, run_after=2025-10-25 15:00:00+00:00
+[2025-10-25T16:46:32.482+0200] {processor.py:183} INFO - Processing /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py took 0.082 seconds
+[2025-10-25T16:47:30.287+0200] {processor.py:161} INFO - Started process (PID=74078) to work on /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:47:30.288+0200] {processor.py:830} INFO - Processing file /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py for tasks to queue
+[2025-10-25T16:47:30.288+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:47:30.288+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:47:30.292+0200] {processor.py:840} INFO - DAG(s) 'order_monitoring_dag' retrieved from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:47:30.355+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:47:30.355+0200] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-10-25T16:47:30.362+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:47:30.362+0200] {dag.py:3823} INFO - Setting next_dagrun for order_monitoring_dag to 2025-10-25 14:00:00+00:00, run_after=2025-10-25 15:00:00+00:00
+[2025-10-25T16:47:30.369+0200] {processor.py:183} INFO - Processing /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py took 0.082 seconds
+[2025-10-25T16:48:26.279+0200] {processor.py:161} INFO - Started process (PID=74135) to work on /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:48:26.280+0200] {processor.py:830} INFO - Processing file /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py for tasks to queue
+[2025-10-25T16:48:26.280+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:48:26.280+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:48:26.284+0200] {processor.py:840} INFO - DAG(s) 'order_monitoring_dag' retrieved from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:48:26.356+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:48:26.356+0200] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-10-25T16:48:26.363+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:48:26.363+0200] {dag.py:3823} INFO - Setting next_dagrun for order_monitoring_dag to 2025-10-25 14:00:00+00:00, run_after=2025-10-25 15:00:00+00:00
+[2025-10-25T16:48:26.370+0200] {processor.py:183} INFO - Processing /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py took 0.091 seconds
+[2025-10-25T16:49:21.040+0200] {processor.py:161} INFO - Started process (PID=74197) to work on /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:49:21.041+0200] {processor.py:830} INFO - Processing file /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py for tasks to queue
+[2025-10-25T16:49:21.041+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:49:21.041+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:49:21.046+0200] {processor.py:840} INFO - DAG(s) 'order_monitoring_dag' retrieved from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:49:21.107+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:49:21.107+0200] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-10-25T16:49:21.114+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:49:21.114+0200] {dag.py:3823} INFO - Setting next_dagrun for order_monitoring_dag to 2025-10-25 14:00:00+00:00, run_after=2025-10-25 15:00:00+00:00
+[2025-10-25T16:49:21.121+0200] {processor.py:183} INFO - Processing /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py took 0.081 seconds
+[2025-10-25T16:50:20.517+0200] {processor.py:161} INFO - Started process (PID=74239) to work on /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:50:20.518+0200] {processor.py:830} INFO - Processing file /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py for tasks to queue
+[2025-10-25T16:50:20.518+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:50:20.518+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:50:20.522+0200] {processor.py:840} INFO - DAG(s) 'order_monitoring_dag' retrieved from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:50:20.580+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:50:20.579+0200] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-10-25T16:50:20.587+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:50:20.587+0200] {dag.py:3823} INFO - Setting next_dagrun for order_monitoring_dag to 2025-10-25 14:00:00+00:00, run_after=2025-10-25 15:00:00+00:00
+[2025-10-25T16:50:20.593+0200] {processor.py:183} INFO - Processing /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py took 0.076 seconds
+[2025-10-25T16:51:18.595+0200] {processor.py:161} INFO - Started process (PID=74287) to work on /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:51:18.595+0200] {processor.py:830} INFO - Processing file /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py for tasks to queue
+[2025-10-25T16:51:18.596+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:51:18.596+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:51:18.600+0200] {processor.py:840} INFO - DAG(s) 'order_monitoring_dag' retrieved from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py
+[2025-10-25T16:51:18.661+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:51:18.661+0200] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-10-25T16:51:18.668+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:51:18.668+0200] {dag.py:3823} INFO - Setting next_dagrun for order_monitoring_dag to 2025-10-25 14:00:00+00:00, run_after=2025-10-25 15:00:00+00:00
+[2025-10-25T16:51:18.675+0200] {processor.py:183} INFO - Processing /Users/youssefdaaloul/venv/dbt_snowflake/airflow_project/dags/order_monitor_dag.py took 0.081 seconds

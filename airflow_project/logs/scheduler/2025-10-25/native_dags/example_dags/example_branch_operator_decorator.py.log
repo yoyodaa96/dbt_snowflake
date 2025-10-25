@@ -583,3 +583,159 @@ Traceback (most recent call last):
 airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
 [2025-10-25T16:36:44.414+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
 [2025-10-25T16:36:44.466+0200] {processor.py:183} INFO - Processing /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.074 seconds
+[2025-10-25T16:44:25.097+0200] {processor.py:161} INFO - Started process (PID=73907) to work on /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2025-10-25T16:44:25.099+0200] {processor.py:830} INFO - Processing file /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2025-10-25T16:44:25.099+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:44:25.099+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2025-10-25T16:44:25.119+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:44:25.117+0200] {dagbag.py:348} ERROR - Failed to import: /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-10-25T16:44:25.120+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2025-10-25T16:44:25.174+0200] {processor.py:183} INFO - Processing /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.077 seconds
+[2025-10-25T16:46:21.576+0200] {processor.py:161} INFO - Started process (PID=74024) to work on /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2025-10-25T16:46:21.576+0200] {processor.py:830} INFO - Processing file /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2025-10-25T16:46:21.577+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:46:21.577+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2025-10-25T16:46:21.598+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:46:21.595+0200] {dagbag.py:348} ERROR - Failed to import: /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-10-25T16:46:21.598+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2025-10-25T16:46:21.651+0200] {processor.py:183} INFO - Processing /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.075 seconds
+[2025-10-25T16:48:17.504+0200] {processor.py:161} INFO - Started process (PID=74125) to work on /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2025-10-25T16:48:17.504+0200] {processor.py:830} INFO - Processing file /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2025-10-25T16:48:17.505+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:48:17.505+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2025-10-25T16:48:17.525+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:48:17.522+0200] {dagbag.py:348} ERROR - Failed to import: /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-10-25T16:48:17.526+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2025-10-25T16:48:17.580+0200] {processor.py:183} INFO - Processing /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.077 seconds
+[2025-10-25T16:50:09.082+0200] {processor.py:161} INFO - Started process (PID=74232) to work on /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2025-10-25T16:50:09.083+0200] {processor.py:830} INFO - Processing file /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2025-10-25T16:50:09.083+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:50:09.083+0200] {dagbag.py:538} INFO - Filling up the DagBag from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2025-10-25T16:50:09.103+0200] {logging_mixin.py:188} INFO - [2025-10-25T16:50:09.100+0200] {dagbag.py:348} ERROR - Failed to import: /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-10-25T16:50:09.103+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2025-10-25T16:50:09.155+0200] {processor.py:183} INFO - Processing /Users/youssefdaaloul/venv/dbt_snowflake/airflow_venv_39/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.074 seconds
