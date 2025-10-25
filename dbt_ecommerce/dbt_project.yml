@@ -1,0 +1,9 @@
+name: 'dbt_ecommerce'
+profile: 'snowflake'
+ 
+models:
+  dbt_ecommerce:
+    staging:
+      materialized: view
+    marts:
+      materialized: view
