@@ -1,4 +1,4 @@
-🚀 Pipeline Data Moderne avec Snowflake, dbt et Apache Airflow
+**🚀 Pipeline Data Moderne avec Snowflake, dbt et Apache Airflow
 🎯 Objectif du projet
 
 Ce projet illustre la mise en place d’un pipeline de données moderne de bout en bout.
