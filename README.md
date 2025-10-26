@@ -1,5 +1,5 @@
-*🚀 Pipeline Data Moderne avec Snowflake, dbt et Apache Airflow*
-🎯 Objectif du projet
+**🚀 Pipeline Data Moderne avec Snowflake, dbt et Apache Airflow**
+**🎯 Objectif du projet*
 
 Ce projet illustre la mise en place d’un pipeline de données moderne de bout en bout.
 L’objectif était de transformer des données brutes issues de fichiers CSV (commandes, clients et livraisons) en informations exploitables au sein de Snowflake, à l’aide de dbt pour la transformation et Apache Airflow pour l’orchestration automatisée.
